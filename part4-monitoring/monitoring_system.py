@@ -10,7 +10,7 @@ This system monitors:
 4. Schema stability
 5. Processing anomalies
 
-Author: Data Infrastructure Team
+Author: Abdulhafeth Salah
 Date: 2025
 """
 
@@ -24,9 +24,98 @@ from dataclasses import dataclass, field
 from enum import Enum
 import logging
 from collections import defaultdict
+from urllib.parse import urlparse, parse_qs
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+
+def extract_marketing_channel(page_url: str, referrer: str) -> str:
+    """Extract marketing channel from URL parameters and referrer."""
+    try:
+        params = parse_qs(urlparse(str(page_url)).query)
+        
+        # Check for gclid (Google Ads)
+        if 'gclid' in params:
+            return 'Paid Search'
+        
+        # Check for fbclid (Facebook Ads)
+        if 'fbclid' in params:
+            return 'Paid Social'
+        
+        # Check UTM parameters
+        if 'utm_source' in params:
+            source = params['utm_source'][0].lower()
+            medium = params.get('utm_medium', [''])[0].lower()
+            
+            if medium in ['cpc', 'ppc', 'paid']:
+                return 'Paid Search'
+            if source in ['facebook', 'instagram'] and medium in ['cpc', 'paid']:
+                return 'Paid Social'
+            if source in ['email', 'klaviyo'] or medium == 'email':
+                return 'Email'
+            if medium == 'affiliate':
+                return 'Affiliate'
+            return 'Other'
+    except:
+        pass
+    
+    # Check referrer
+    if referrer and str(referrer) != 'nan':
+        try:
+            ref_domain = urlparse(str(referrer)).netloc.lower()
+            if 'google' in ref_domain:
+                return 'Organic Search'
+            if 'bing' in ref_domain:
+                return 'Organic Search'
+            if 'facebook' in ref_domain or 'instagram' in ref_domain:
+                return 'Organic Social'
+            if 'source-' in ref_domain:
+                return 'Affiliate'
+            if ref_domain and 'puffy.com' not in ref_domain:
+                return 'Referral'
+        except:
+            pass
+    
+    return 'Direct'
+
+
+def build_sessions_for_monitoring(df: pd.DataFrame) -> pd.DataFrame:
+    """Build session data with proper traffic source extraction for monitoring."""
+    
+    # Extract marketing channel for each event
+    df = df.copy()
+    df['marketing_channel'] = df.apply(
+        lambda row: extract_marketing_channel(
+            row.get('page_url', ''), 
+            row.get('referrer', '')
+        ), 
+        axis=1
+    )
+    
+    # Simple sessionization (group by client_id for daily monitoring)
+    sessions_list = []
+    
+    for client_id, group in df.groupby('client_id'):
+        if pd.isna(client_id) or client_id == '':
+            continue
+            
+        # Use first event's channel as session channel
+        channel = group['marketing_channel'].iloc[0]
+        
+        sessions_list.append({
+            'session_id': f"{client_id}_1",
+            'client_id': client_id,
+            'has_add_to_cart': (group['event_name'] == 'product_added_to_cart').any(),
+            'has_checkout_started': (group['event_name'] == 'checkout_started').any(),
+            'has_purchase': (group['event_name'] == 'checkout_completed').any(),
+            'marketing_channel': channel
+        })
+    
+    return pd.DataFrame(sessions_list) if sessions_list else pd.DataFrame(
+        columns=['session_id', 'client_id', 'has_add_to_cart', 'has_checkout_started', 'has_purchase', 'marketing_channel']
+    )
+
 
 
 class AlertSeverity(Enum):
@@ -154,8 +243,13 @@ class DataMonitor:
         self._check_duplicate_transactions(conversions_data)
         self._check_conversion_funnel(sessions_data)
         
-        # Traffic health
-        self._check_traffic_sources(sessions_data)
+        # Traffic health - check if we have meaningful referrer data
+        has_referrer = 'referrer' in today_data.columns
+        if has_referrer:
+            referrer_values = today_data['referrer'].dropna()
+            has_referrer = len(referrer_values) > 0 and (referrer_values != '').any()
+        
+        self._check_traffic_sources(sessions_data, has_referrer_data=has_referrer)
         
         return self.alerts
     
@@ -407,9 +501,9 @@ class DataMonitor:
     # TRAFFIC HEALTH CHECKS
     # =========================================================================
     
-    def _check_traffic_sources(self, sessions: pd.DataFrame) -> None:
+    def _check_traffic_sources(self, sessions: pd.DataFrame, has_referrer_data: bool = True) -> None:
         """Check traffic source distribution for anomalies."""
-        if 'marketing_channel' not in sessions.columns:
+        if 'marketing_channel' not in sessions.columns or len(sessions) == 0:
             return
         
         channel_dist = sessions['marketing_channel'].value_counts(normalize=True)
@@ -429,14 +523,23 @@ class DataMonitor:
             )
         
         # Check for missing expected channels
-        expected_channels = {'Direct', 'Paid Search', 'Organic Search'}
+        # Only check Organic Search if we have referrer data (it depends on referrer)
+        if has_referrer_data:
+            expected_channels = {'Direct', 'Paid Search', 'Organic Search'}
+        else:
+            # Without referrer data, we can't detect Organic Search, so don't alert on it
+            expected_channels = {'Direct', 'Paid Search'}
+        
         missing = expected_channels - set(channel_dist.index)
         
-        if missing:
+        # Only alert if truly critical channels are missing (not Organic Search alone)
+        critical_missing = missing - {'Organic Search'}
+        
+        if critical_missing:
             self._add_alert(
                 name="Missing Traffic Channel",
                 severity=AlertSeverity.WARNING,
-                message=f"No traffic from expected channels: {missing}",
+                message=f"No traffic from expected channels: {critical_missing}",
                 metric_name='channel_coverage',
                 current_value=len(channel_dist),
                 threshold=len(expected_channels)
@@ -549,15 +652,8 @@ def run_daily_monitoring(data_dir: str, output_dir: str) -> List[Alert]:
         if 'referrer' not in df.columns:
             df['referrer'] = ''
         
-        # Create simple session and conversion data
-        sessions = pd.DataFrame({
-            'session_id': range(len(df) // 10),  # Simplified
-            'client_id': df['client_id'].iloc[:len(df)//10] if len(df) > 10 else df['client_id'],
-            'has_add_to_cart': [False] * (len(df) // 10),
-            'has_checkout_started': [False] * (len(df) // 10),
-            'has_purchase': [False] * (len(df) // 10),
-            'marketing_channel': ['Direct'] * (len(df) // 10)
-        })
+        # Create session data with proper traffic source extraction
+        sessions = build_sessions_for_monitoring(df)
         
         # Build conversions data
         purchases = df[df['event_name'] == 'checkout_completed'].copy()
