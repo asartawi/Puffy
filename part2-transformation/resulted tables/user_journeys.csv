@@ -1,0 +1,282 @@
+client_id,total_sessions,total_pageviews,days_from_first_visit,channels_touched,channel_path,devices_used,converted,revenue
+16C594DF-8deb-4DAB-b767-efc3b82360e6,1,6,0,1,Internal,1,True,1599.0
+1735590428-Rw8e53NUAyqh,1,6,0,1,Direct,1,True,179.0
+1735611495-J_n2T1HK7vPv,3,3,0,3,Direct > Internal > Organic Search,1,True,1899.0
+1735913255-pA-h3CMo96w0,1,2,0,1,Internal,1,True,1599.0
+1736048074-aDVs3Y9A_D_y,1,1,0,1,Internal,1,True,1449.0
+1736137782-qnlIPdOzIMIV,5,15,0,3,Organic Search > Paid Search > Organic Search > Paid Search > Direct,1,True,262.0
+1736790828-mW3_FOMhXHNK,2,3,0,2,Direct > Other,1,True,1349.0
+1737213027-8b0K2x6ACOek,1,6,0,1,Other,1,True,899.0
+1737221798-dp1kMRfVStrp,8,12,3,1,Direct > Direct > Direct > Direct > Direct,1,True,229.0
+1737382881-hEun5tD7Ri_v,3,17,7,2,Other > Direct > Direct,1,True,179.0
+1737588711-y19MZTLwAlS_,1,11,0,1,Paid Search,1,True,349.0
+1737909439-m_4_M4HT3Clc,1,3,0,1,Direct,1,True,204.0
+1738009852-5QlHRCUAcC8Q,2,3,0,2,Internal > Direct,1,True,2654.0
+1738114715-VE0OVI-6MY_q,1,4,0,1,Internal,1,True,1277.0
+1738458171-9vJJikpUTOb1,3,4,1,2,Other > Other > Direct,1,True,262.0
+1738717293-A8SGrDCUzoxx,4,21,11,2,Paid Search > Direct > Paid Search > Paid Search,1,True,1049.0
+1738897592-wHdPs3e8dycN,1,8,0,1,Other,1,True,262.0
+1738964752-g2l-ElXufGyB,2,4,0,1,Direct > Direct,1,True,0.0
+1738979354-oafNfBd0b1z2,4,20,2,3,Paid Search > Other > Direct > Direct,1,True,102.0
+1739042523-0dWy0onVklGz,5,68,4,3,Other > Paid Search > Direct > Direct > Direct,1,True,2618.0
+1739118999-f2iFqbh8JCVu,4,35,1,2,Direct > Other > Direct > Direct,1,True,2648.0
+1739169598-7sjOuU60Y6Eo,11,40,0,4,Direct > Direct > Paid Search > Other > Other,1,True,1427.0
+1739320691-_qd89fFOwigp,3,8,0,2,Direct > Other > Direct,1,True,649.0
+1739571234-3McSv47Fx1Qm,2,23,1,1,Paid Search > Paid Search,1,True,649.0
+1739632959-3UuM3WM5LiF_,2,2,0,2,Direct > Internal,1,True,799.0
+1739654536-l0pMsprdf4K1,1,1,0,1,Direct,1,True,799.0
+1739661401-YhLQ3Wpa_2yc,1,1,0,1,Direct,1,True,649.0
+1739721571-5zHR-SPEGkZr,4,25,9,3,Other > Other > Paid Search > Direct,1,True,349.0
+1739722963-bM9HXRvhLpzE,1,3,0,1,Other,1,True,262.0
+1739746383-1E2Pdq8Hpsz6,1,2,0,1,Direct,1,True,0.0
+1739840232-Qa5gyk_Kwh5w,4,34,1,2,Other > Other > Other > Direct,1,True,2449.0
+1739878658-VmIawT4Slalv,6,53,1,2,Organic Search > Organic Search > Organic Search > Organic Search > Organic Search,1,True,409.0
+1739902113-HUVj8CdYF8It,1,2,0,1,Direct,1,True,1249.0
+1739925043-1AUsr0ad1DEH,1,2,0,1,Direct,1,True,3149.0
+1739975044-l6LWN5WR98MB,1,1,0,1,Direct,1,True,2249.0
+1739981017-J2pqbRgl8ICL,1,1,0,1,Direct,1,True,949.0
+1739985361-5ocesE28hJ3Z,1,2,0,1,Other,1,True,128.0
+1740022230-wVcCreN5emU7,1,22,0,1,Direct,1,True,0.0
+1740153262-W9ba7W8Fyqbj,1,18,0,1,Other,1,True,262.0
+1740178922-Jjc6iIt31tDe,2,17,2,1,Direct > Direct,1,True,1527.0
+1740227694-HVyCbgs6JGs1,2,3,0,1,Direct > Direct,1,True,307.0
+1740229091-LgTZGGMFMzzz,2,2,0,2,Direct > Organic Search,1,True,1449.0
+1740235155-Iyyo-PYeYrfN,4,49,0,2,Direct > Direct > Other > Other,1,True,0.0
+1740239035-tdqLa5Lrkuy-,1,2,0,1,Direct,1,True,262.0
+1740246936-TR7HRhn1o2cv,1,11,0,1,Other,1,True,1149.0
+1740268999-k1PQxqt-fODp,7,23,0,2,Other > Other > Direct > Direct > Other,1,True,245.0
+1740273313-tBmCvzjnRa1M,1,2,0,1,Direct,1,True,2128.0
+1740274368-gufFljcekA4a,2,3,0,2,Direct > Affiliate,1,True,2599.0
+1740280302-XHcA-M3fnqtc,1,1,0,1,Internal,1,True,245.0
+1740280410-ag6Ycljew8aX,1,34,0,1,Other,1,True,211.0
+1740283703-BeA3uOhllnoW,3,28,0,1,Paid Search > Paid Search > Paid Search,1,True,2549.0
+1740285929-kNhpxwGWo7u3,1,14,0,1,Internal,1,True,1599.0
+1740307306-6_9iQAayRmHn,3,4,13,2,Direct > Direct > Other,1,True,1449.0
+1740318134-170n169CRst0,2,12,0,1,Paid Search > Paid Search,1,True,2299.0
+1740319142-0cGR9mXrgY7a,1,2,0,1,Internal,1,True,499.0
+1740322032-MGz2QlNnmLit,1,1,0,1,Direct,1,True,102.0
+1740324475-gzFxid7EI98q,2,5,0,1,Direct > Direct,1,True,1449.0
+1740327276-e965nL-38xWN,4,21,1,2,Other > Direct > Other > Direct,1,True,799.0
+1740330024-fdYFQVY4vQpJ,1,12,0,1,Other,1,True,245.0
+1740331321-r0oNQ2MSMJj1,1,13,0,1,Other,1,True,1349.0
+1740342213-wO7WjZIoZlw2,2,9,1,1,Direct > Direct,1,True,245.0
+1740353042-u00VNVwShqi7,1,18,0,1,Other,1,True,262.0
+1740354406-05uJBqjzNLCr,1,11,0,1,Paid Search,1,True,349.0
+1740354432-siarlMkZUacD,1,1,0,1,Internal,1,True,949.0
+1740356123-1bfvg97pRZDo,2,2,8,1,Direct > Direct,1,True,649.0
+1740357638-9tfvOEhPzURB,1,2,0,1,Direct,1,True,127.0
+1740361226-rivvi4JqPuzY,4,12,0,2,Direct > Direct > Direct > Other,1,True,499.0
+1740367034-S45_sOx0uTdt,2,4,0,2,Internal > Direct,1,True,1599.0
+1740369480-TyDhYip-VIAZ,1,2,0,1,Direct,1,True,128.0
+1740375050-XlC0gkccY9RX,2,2,0,2,Direct > Internal,1,True,399.0
+1740375905-ogainOy22IfS,1,10,0,1,Paid Search,1,True,1899.0
+1740388834-Se_QNh_trw4d,1,3,0,1,Internal,1,True,1399.0
+1740394685-BMUHlEYXGIsS,2,3,0,1,Direct > Direct,1,True,2149.0
+1740401153-lr8JFh8YtfIT,1,1,0,1,Direct,1,True,799.0
+1740404510-RR2JJVeKrqEa,1,1,0,1,Internal,1,True,0.0
+1740410100-6Pc-00Mf6SHj,1,1,0,1,Affiliate,1,True,421.6
+1740416131-ALCfOgIbMQtB,1,2,0,1,Direct,1,True,3233.0
+1740416598-nykttCSDtxUO,1,11,0,1,Other,1,True,899.0
+1740419966-ekW7LffQY_mQ,1,1,0,1,Affiliate,1,True,1399.0
+1740420503-CDX4af0XJcby,3,90,1,1,Paid Search > Paid Search > Paid Search,1,True,4248.0
+1740422911-uSQmp4BHfUNc,1,1,0,1,Direct,1,True,799.0
+1740425024-qu9BNEPk5H34,2,15,0,1,Direct > Direct,1,True,1778.0
+1740426329-uHYSiBnw3oSI,1,8,0,1,Paid Search,1,True,649.0
+1740429626-KL7CIMnNyHr6,3,29,1,3,Paid Search > Organic Search > Direct,1,True,2299.0
+1740435325-OQW2KrRz-f87,1,8,0,1,Paid Search,1,True,1099.0
+1740435501-V9T5cBuBY-0p,1,2,0,1,Direct,1,True,179.0
+1740435624-t7_Lldpg-gJE,2,4,0,2,Direct > Paid Search,1,True,245.0
+1740446367-p2cxMCf-rR9O,1,1,0,1,Direct,1,True,949.0
+1740462395-49MBDvvw8EMB,1,2,0,1,Direct,1,True,2149.0
+1740463769-CXbM4e_bRw6w,5,15,0,2,Direct > Direct > Direct > Organic Search > Organic Search,1,True,228.0
+1740470958-7WS5qDFDlXSX,1,2,0,1,Direct,1,True,349.0
+1740490652-u8qNtnGdfQWY,4,32,1,2,Paid Search > Direct > Direct > Direct,1,True,649.0
+1740491267-r8TbUuojnRze,1,22,0,1,Other,1,True,799.0
+1740496096-PCvDM8hAj5vv,1,10,0,1,Direct,1,True,262.0
+1740500274-pZRMdhL7Oatk,1,14,0,1,Paid Search,1,True,490.0
+1740506140-Tah24D5i44Yq,2,3,0,1,Other > Other,1,True,202.0
+1740507907-PhSXNJEFjJgi,1,2,0,1,Paid Search,1,True,1449.0
+1740509552-1fvZUL45Eik0,1,10,0,1,Paid Search,1,True,1249.0
+1740526885-5A-RthRwICoW,3,20,1,2,Paid Search > Other > Other,1,True,1449.0
+1740533061-59GXKhAICVW9,1,9,0,1,Other,1,True,245.0
+1740538658-TkG9ALpxVv-y,2,19,0,2,Paid Search > Direct,1,True,1249.0
+1740541409-iPJ33obXCzai,1,1,0,1,Affiliate,1,True,1549.0
+1740571107-hSVYOtd7C69Y,8,36,0,2,Direct > Direct > Direct > Direct > Direct,1,True,3199.0
+1740582276-owXxPAgE001P,4,5,6,2,Internal > Internal > Direct > Direct,1,True,76.0
+1740585094-kQ9i2xMh92Qi,1,10,0,1,Direct,1,True,1399.0
+1740588030-XKPe3jhWm679,1,2,0,1,Direct,1,True,349.0
+1740593382-b40TBIOREjAO,1,2,0,1,Direct,1,True,949.0
+1740600774-qJ4-XeHIynU8,1,1,0,1,Internal,1,True,1728.0
+1740601365-F_PJluoyOSds,5,19,2,2,Other > Direct > Other > Other > Other,1,True,499.0
+1740601498-77wv6FdS7D3S,2,8,4,1,Direct > Direct,1,True,0.0
+1740602827-aKQxN3dv47qU,4,18,5,2,Other > Direct > Other > Direct,1,True,422.0
+1740610642-nfEg9g1cSmKD,2,15,0,2,Paid Search > Other,1,True,1249.0
+1740615747-WHeh_tCsQtDd,2,17,0,2,Direct > Internal,1,True,1324.0
+1740617894-H_J5RCtMPqDw,1,10,0,1,Direct,1,True,179.0
+1740619595-qrlDhFMbVgcI,1,10,0,1,Direct,1,True,1549.0
+1740621998-pQoM0ILasRcP,1,9,0,1,Other,1,True,245.0
+1740630977-cENzfYjmF5Mp,1,2,0,1,Direct,1,True,441.0
+1740638258-21Yc1gq7Q5Vu,11,39,0,3,Direct > Other > Other > Direct > Other,1,True,262.0
+1740667284-F32gz9hh9Rnx,2,4,1,2,Direct > Other,1,True,228.0
+1740668179-BpHiz-xV96as,1,16,0,1,Direct,1,True,0.0
+1740670549-mLuoeHG85XGb,1,1,0,1,Direct,1,True,262.0
+1740670999-K1_JtnL7_7vD,1,15,0,1,Other,1,True,1577.0
+1740675612-syJ274dlAty2,2,18,0,1,Paid Search > Paid Search,1,True,228.0
+1740690573-skRPmgwUwCwt,1,1,0,1,Direct,1,True,2449.0
+1740697388-qvhB0saUKLRV,1,1,0,1,Direct,1,True,799.0
+1740698008-_7WEw9tKqSlN,3,19,0,2,Organic Search > Direct > Direct,1,True,245.0
+1740702109-D3IjcJAWXSjK,1,1,0,1,Direct,1,True,1449.0
+1740706745-i5FCnSeupIMN,1,8,0,1,Other,1,True,128.0
+1740708236-ykIKjXLTg3KT,4,23,2,2,Direct > Direct > Internal > Internal,1,True,799.0
+1740712304-4NR4XpCJLOX_,1,13,0,1,Other,1,True,332.0
+1740713499-VJj6RspDKw9n,1,2,0,1,Direct,1,True,2695.0
+1740716840-5kNegoAcF2eq,3,3,3,3,Organic Search > Internal > Direct,1,True,204.0
+1740745285-QDn8KpK2bk0K,1,1,0,1,Direct,1,True,537.0
+1740747967-lkkoSxf4Zob1,3,16,1,2,Paid Search > Paid Search > Internal,1,True,1828.0
+1740748127-_-MVAL9cOASK,1,14,0,1,Other,1,True,128.0
+1740748801-BYfnsSqF3vEC,2,2,0,2,Internal > Other,1,True,2449.0
+1740754381-rnBUSKHI9Gch,1,11,0,1,Paid Search,1,True,349.0
+1740755105-5iC4WPD8py5M,3,41,1,2,Paid Search > Other > Other,1,True,2598.0
+1740759472-gvTG1KX2FKwX,1,1,0,1,Affiliate,1,True,799.0
+1740759808-Ba9JxzYLgSNp,1,11,0,1,Paid Search,1,True,1449.0
+1740769706-3zA2qgRqETXe,1,1,0,1,Internal,1,True,349.0
+1740771475-n5FcQ-plWowJ,3,5,0,1,Direct > Direct > Direct,1,True,1956.0
+1740774713-GA3CAYMwty2k,3,5,0,2,Other > Internal > Other,1,True,3618.0
+1740775337-VbaIKeXLSFlT,1,29,0,1,Other,1,True,1758.0
+1740775651-tVFVjk63xPB2,3,55,6,1,Other > Other > Other,1,True,3498.0
+1740779214-TerJ1t75-LmH,2,2,0,2,Internal > Organic Search,1,True,1798.0
+1740782390-pXosgji_No6J,3,20,0,2,Paid Search > Direct > Direct,1,True,649.0
+1740791190-Ao77naCCTRrE,1,5,0,1,Affiliate,1,True,799.0
+1740796696-0_aTFzHCtICo,1,2,0,1,Organic Search,1,True,1249.0
+1740797092-DNdkS2c78b2l,4,36,0,2,Paid Search > Other > Paid Search > Other,1,True,799.0
+1740797839-x5V7aMkz_UqO,1,2,0,1,Internal,1,True,649.0
+1740801512-jAnw7ma-E21F,1,2,0,1,Direct,1,True,1599.0
+1740803155-daNFsOIYXY1c,1,14,0,1,Paid Search,1,True,799.0
+1740804330-s6eb6pejZKvW,2,14,0,1,Paid Search > Paid Search,1,True,799.0
+1740804949-19zg4HxHs8nJ,1,1,0,1,Direct,1,True,262.0
+1740810559-Q0alwUWa0jP4,1,2,0,1,Organic Search,1,True,1399.0
+1740817250-9tRt33rj2hLw,1,3,0,1,Direct,1,True,128.0
+1740841019-Yww4CLkr1eCr,2,20,0,2,Paid Search > Direct,1,True,1148.0
+1740841026-CiFeqwtPSQTx,1,1,0,1,Internal,1,True,2599.0
+1740842643-CXc34OXFReMg,1,2,0,1,Direct,1,True,262.0
+1740846664-0S7NXvvMULZD,1,3,0,1,Organic Search,1,True,1099.0
+1740849061-SeRQQbvJWtMv,1,2,0,1,Internal,1,True,349.0
+1740849441-me24-pRj7pwU,2,17,0,1,Other > Other,1,True,1449.0
+1740866022-ASLBAmfQjb0l,3,13,6,1,Other > Other > Other,1,True,128.0
+1740868620-nf27s-eC89nX,7,22,1,3,Paid Search > Paid Search > Paid Search > Direct > Paid Search,1,True,262.0
+1740868875-rRI65Co-SnHM,2,11,0,2,Other > Organic Search,1,True,1399.0
+1740869369-oFRfkFb-PgHf,3,5,3,1,Direct > Direct > Direct,1,True,4910.0
+1740872929-9Yd3GYLM_LSs,1,2,0,1,Direct,1,True,1399.0
+1740875297-1vOZyLWXeVat,1,9,0,1,Paid Search,1,True,1449.0
+1740882140-jCXPgRUmIHR5,4,22,0,3,Paid Search > Internal > Paid Search > Direct,1,True,1449.0
+1740882309-xKVuZeG5uy6c,1,16,0,1,Direct,1,True,204.0
+1740882838-MO9uBNwKw_HK,1,2,0,1,Affiliate,1,True,649.0
+1740918610-N3ZpUfN2SBal,2,4,0,2,Paid Search > Organic Search,1,True,1249.0
+1740921106-RPxSPp-y6NIP,3,3,2,1,Direct > Direct > Direct,1,True,918.0
+1740924448-bZJfo_EZYmFM,1,12,0,1,Other,1,True,1449.0
+1740925007-pQhHifN-MnGu,1,1,0,1,Direct,1,True,1249.0
+1740928323-FPI0_fcHcyma,1,4,0,1,Organic Search,1,True,1149.0
+1740929298-MfI_92p5qzUw,1,2,0,1,Affiliate,1,True,999.0
+1740934344-KuRis4hTYMsg,2,2,0,2,Organic Search > Direct,1,True,1149.0
+1740935518-twihe9vRzCjQ,1,8,0,1,Paid Search,1,True,2599.0
+1740937604-GKovm3Kpolcy,2,3,0,2,Affiliate > Internal,1,True,1249.0
+1740937758-fQVwhPc0-Igx,2,15,0,2,Other > Paid Search,1,True,1449.0
+1740942809-rafoCIO0tpZt,3,3,0,3,Direct > Paid Search > Internal,1,True,1399.0
+1740944225-vxqRXkZlEgvC,1,12,0,1,Other,1,True,1249.0
+1740945585-rX0cbU2A9KSw,1,19,0,1,Direct,1,True,1727.0
+1740947035-fPtxAFIRLsWy,1,1,0,1,Internal,1,True,2298.0
+1740947676-ga7nvhhEAswG,1,2,0,1,Organic Search,1,True,102.0
+1740950883-QCjvpH5lLjIU,3,18,0,3,Paid Search > Organic Search > Direct,1,True,2449.0
+1740958672-z6YayaVcrSKv,1,18,0,1,Other,1,True,128.0
+1740960695-9YSJOqYpuNBg,1,1,0,1,Affiliate,1,True,799.0
+1740968189-jtk0rnzzKGzn,2,5,1,1,Direct > Direct,1,True,179.0
+1740968268--BbqYI1-XB-1,2,4,0,2,Paid Search > Affiliate,1,True,999.0
+1740968483-tXd3WuqvPRUc,2,24,0,2,Other > Paid Search,1,True,262.0
+1740969251-ASd5nVTToRE5,1,2,0,1,Internal,1,True,649.0
+1740975218-VcVVYf2MdAG0,1,2,0,1,Direct,1,True,0.0
+1740977742-UEVdNBP3H0Kc,1,9,0,1,Direct,1,True,262.0
+1741002185-WaQnnF0DAdu8,1,1,0,1,Internal,1,True,179.0
+1741007326-WnrlWM9-GVmn,1,14,0,1,Other,1,True,262.0
+1741011764-k3h5YzigIrpz,2,6,0,2,Affiliate > Internal,1,True,3348.0
+1741015606-qTHcgvPNC4fu,2,3,0,2,Other > Direct,1,True,1449.0
+1741021323-DdzrVOAJ-YCD,2,34,0,1,Other > Other,1,True,2599.0
+1741021395-CFVOBs-1Q7Q3,1,3,0,1,Affiliate,1,True,349.0
+1741023625-NiG7nk5P6sR_,1,23,0,1,Other,1,True,2076.0
+1741026970-0uhbiYvphbc9,1,15,0,1,Other,1,True,1249.0
+1741027693-ESt426Z1STgk,2,4,0,1,Direct > Direct,1,True,202.0
+1741028036-4pDGPo-tgOOl,3,19,0,2,Other > Direct > Direct,1,True,261.8
+1741036142-T6Rgx0sI405n,1,1,0,1,Direct,1,True,262.0
+1741039860-g1G5gJM2lnLd,2,8,0,1,Other > Other,1,True,262.0
+1741048270-ftQrOu0ixtUu,1,3,0,1,Direct,1,True,245.0
+1741052190-FG3JWmbHQ2Wf,3,5,0,3,Other > Paid Search > Direct,1,True,808.0
+1741053455-_cbIX7zsS0ah,1,13,0,1,Other,1,True,245.0
+1741061583-1xJY-QaHEHbk,1,2,0,1,Paid Search,1,True,999.0
+1741066792-Bn_qfFAN35KC,3,14,0,2,Other > Other > Direct,1,True,1049.0
+1741089096-oYY-NoWDUo5k,1,8,0,1,Direct,1,True,0.0
+1741093942-1TGUKFxFShvW,2,2,0,2,Paid Search > Direct,1,True,1449.0
+1741095311-qcE4o8mpkeyg,1,7,0,1,Direct,1,True,65.0
+1741098656-VLN0zX3eoYUF,4,32,0,2,Paid Search > Paid Search > Direct > Direct,1,True,874.0
+1741100448-jZtoX5zjpJ4k,1,1,0,1,Direct,1,True,1349.0
+1741110732-V-6qnYah0LWf,1,2,0,1,Direct,1,True,1528.0
+1741116115-OtP4h3ixNdPg,1,9,0,1,Direct,1,True,262.0
+1741120370-LuC9HR53iysG,2,6,0,1,Direct > Direct,1,True,130.0
+1741123944-uKQCA6-W8V9j,1,2,0,1,Direct,1,True,128.0
+1741139343-TpdzsNTfdkgE,1,4,0,1,Other,1,True,3348.0
+1741141222-ofGa31U-mjqX,1,2,0,1,Direct,1,True,2618.0
+1741152868-HqKllnKCd7M7,1,16,0,1,Direct,1,True,1349.0
+1741181676-YWfBbl50F3bT,1,3,0,1,Other,1,True,262.0
+1741183127-k28N_HAOC7tf,1,3,0,1,Other,1,True,228.0
+1741184510-TPWYDMdeSjxm,1,3,0,1,Direct,1,True,1099.0
+1741185478-HelJCsywi7PW,1,8,0,1,Other,1,True,245.0
+1741186814-OMjdBQs4EHsx,1,2,0,1,Direct,1,True,262.0
+1741187503-DP7D2DIdHpK3,1,1,0,1,Direct,1,True,262.0
+1741194148-XQxu9ZtU5lDA,1,3,0,1,Direct,1,True,2299.0
+1741197755-usppw7h40ArJ,2,12,0,2,Other > Direct,1,True,128.0
+1741203820-TXa9VJ0OBvqk,1,10,0,1,Paid Search,1,True,899.0
+1741204237-HW1IJ7mYazh8,1,12,0,1,Paid Search,1,True,799.0
+1741208600-lCDvZ1WxqfAX,1,12,0,1,Paid Search,1,True,178.0
+1741213600-JDpen8tTcE-t,1,33,0,1,Paid Search,1,True,1049.0
+1741216775-PaVP4vM7pnGW,2,45,0,2,Other > Direct,1,True,2051.0
+1741224557-GKuOSLBC2P1Q,1,1,0,1,Direct,1,True,1727.0
+1741228930-suvZayBKZIRW,1,3,0,1,Other,1,True,1549.0
+1741230403-QWnkOshzxJdZ,1,8,0,1,Paid Search,1,True,649.0
+1741237076-LvugJ5SOd1_S,2,21,0,2,Paid Search > Direct,1,True,1599.0
+1741246567-x58ev1ceMQqh,4,18,0,2,Paid Search > Direct > Paid Search > Direct,1,True,799.0
+1741248417-Y6KRam-ZfZvN,1,9,0,1,Direct,1,True,228.0
+1741253258-H4cPyYPdJcCb,1,9,0,1,Paid Search,1,True,102.0
+1741263345-xa2PpS99CULk,5,17,0,1,Direct > Direct > Direct > Direct > Direct,1,True,1549.0
+1741267698-zbcYEzDSLEir,1,1,0,1,Direct,1,True,899.0
+1741275672-IviYDxtrnbV0,1,4,0,1,Paid Search,1,True,320.0
+1741281290-5LSPljVJZT0E,2,13,0,1,Other > Other,1,True,999.0
+1741281950-CwModd5jD8mp,1,30,0,1,Direct,1,True,1019.0
+1741285459-G5ArR9CjhHMz,1,21,0,1,Other,1,True,799.0
+1741287077-2Fu4tAoHh7vn,1,1,0,1,Direct,1,True,245.0
+1741293602-WWLxSLTsYbB9,1,2,0,1,Direct,1,True,1199.0
+1741308098-voN7BK-cYxUu,1,11,0,1,Direct,1,True,211.0
+1741310460-LmsQ1pcrFFgF,1,1,0,1,Direct,1,True,1449.0
+1741310594-KP5CQHYOhh2b,1,2,0,1,Other,1,True,262.0
+1741311251-lOK-zPwXThG7,1,6,0,1,Direct,1,True,799.0
+1741313717-XoA7tCkAvrQ-,6,10,1,3,Other > Direct > Direct > Direct > Paid Search,1,True,1249.0
+1741325373-_iNjR3SxkjMW,1,8,0,1,Paid Search,1,True,179.0
+1741355127-rrhPsi0UhsYf,1,20,0,1,Direct,1,True,1599.0
+1741367210-WCslZF4AF2Eq,1,3,0,1,Direct,1,True,1599.0
+1741367456-uz2V75aLolvU,2,24,0,1,Other > Other,1,True,262.0
+1741368422-QP9oLKX9sIXr,1,13,0,1,Paid Search,1,True,128.0
+1741368807-cwG4UXzYpKRX,1,9,0,1,Other,1,True,262.0
+1741376842-9XG7w3-mM2Q0,1,1,0,1,Direct,1,True,799.0
+1741377564-vA50-KV3HByf,1,15,0,1,Direct,1,True,2249.0
+1741387821-nJRBsF1KnQqU,5,47,0,2,Direct > Direct > Direct > Direct > Other,1,True,3624.0
+1741392082-sVV7LZIyabRK,1,12,0,1,Paid Search,1,True,102.0
+1741418003-ceRfMXA_Ram6,1,22,0,1,Direct,1,True,548.0
+1741435301-zNy_7FZ_r84B,1,1,0,1,Direct,1,True,999.0
+1741438403-Q6-Ercm31b9z,1,22,0,1,Other,1,True,1349.0
+1741441969-dKIxbmYzHODr,1,2,0,1,Direct,1,True,211.0
+1741454243-yr3GTRrmVmE1,1,1,0,1,Direct,1,True,999.0
+1741454510-4loTNj1AnjHM,1,9,0,1,Paid Search,1,True,698.0
+1741459212-7VigmERfpOHe,1,2,0,1,Direct,1,True,2449.0
+1741464828-PaJF0mvljpvm,1,2,0,1,Direct,1,True,1349.0
+1741470471-eyllBy3aK2u8,1,10,0,1,Direct,1,True,2299.0
+1741476677-Mum3kubLr6NE,1,22,0,1,Direct,1,True,1535.0
+80529520-9307-4360-b49b-c8934e49835a,1,2,0,1,Direct,1,True,649.0
+D2F161C8-9a60-478D-a108-9dbfaf4eaf19,1,1,0,1,Direct,1,True,799.0
+F3AFD77B-87cf-4BBF-b084-011cedfc1da0,1,4,0,1,Direct,1,True,349.0
