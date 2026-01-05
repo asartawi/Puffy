@@ -15,6 +15,8 @@
 
 ---
 
+![Sample of the Reports dashboard that shall be built for marketing team ](dashboard.png)
+
 ## 1. What's Working
 
 ### Strong Average Order Value
@@ -57,7 +59,7 @@ Add to Cart:      2,052 (5.4%)    ← 94.6% leave before ATC
 Checkout:           750 (2.0%)    ← 63.5% abandon cart
 Purchase:           290 (0.76%)   ← 61.3% abandon checkout
 ```
-![Funnel ](funnel.png)
+
 **Critical Insight**: The biggest drop-off is between landing and Add to Cart. Only 5.4% of sessions add a product to cart. This suggests:
 - Landing page content may not be compelling enough
 - Product pages may lack urgency or trust signals
